@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".fragment.profile.ProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/poppins_black_bold"
+                android:gravity="center"
+                android:textColor="@color/primaryDark"
+                android:textSize="20sp"
+                android:text="My Profile"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Email"/>
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp"
+                android:text="aldy@mail.com"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="NIM"/>
+
+            <EditText
+                android:id="@+id/edtNim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textPersonName"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp"
+                android:text="1234567"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Nama"/>
+
+            <EditText
+                android:id="@+id/edtNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textPersonName"
+                android:text="Aldycky"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Kelas"/>
+
+            <EditText
+                android:id="@+id/edtKelas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:enabled="false"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="textPersonName"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp"
+                android:text="TI 6B"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/actionLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/poppins_black_bold"
+                android:text="Logout"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

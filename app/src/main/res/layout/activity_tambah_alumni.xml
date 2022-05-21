@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TambahAlumniActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/poppins_black_bold"
+                android:gravity="center"
+                android:textColor="@color/primaryDark"
+                android:textSize="20sp"
+                android:text="Tambah Data Alumni"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="NIM"/>
+
+            <EditText
+                android:id="@+id/edtNim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Nama"/>
+
+            <EditText
+                android:id="@+id/edtNamaAlumni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Tempat Lahir"/>
+
+            <EditText
+                android:id="@+id/edtTempatLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Tanggal Lahir"/>
+
+            <EditText
+                android:id="@+id/edtTanggalLahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Alamat"/>
+
+            <EditText
+                android:id="@+id/edtAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Agama"/>
+
+            <EditText
+                android:id="@+id/edtAgama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Tlp/hp"/>
+
+            <EditText
+                android:id="@+id/edtHp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Tahun Masuk"/>
+
+            <EditText
+                android:id="@+id/edtTahunMasuk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Tahun Lulus"/>
+
+            <EditText
+                android:id="@+id/edtTahunLulus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Pekerjaan"/>
+
+            <EditText
+                android:id="@+id/edtPekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textColor="@color/primaryDark"
+                android:textSize="16sp"
+                android:text="Jabatan"/>
+
+            <EditText
+                android:id="@+id/edtJabatan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:fontFamily="@font/poppins_light"
+                android:inputType="text"
+                android:textColor="@color/neutralGrey"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/actionSimpan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_button"
+                android:fontFamily="@font/poppins_black_bold"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="Simpan"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
