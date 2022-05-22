@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana.fragment.home;
+package pnj.uts.aldyckybaguswitjaksana.fragment.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import pnj.uts.aldycky_bagus_witjaksana.R;
+import pnj.uts.aldyckybaguswitjaksana.R;
 
 /**
  * A simple {@link Fragment} subclass.

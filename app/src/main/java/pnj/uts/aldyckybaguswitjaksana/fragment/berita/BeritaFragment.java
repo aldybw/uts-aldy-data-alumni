@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana.fragment.berita;
+package pnj.uts.aldyckybaguswitjaksana.fragment.berita;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import pnj.uts.aldycky_bagus_witjaksana.DetailBeritaActivity;
-import pnj.uts.aldycky_bagus_witjaksana.R;
-import pnj.uts.aldycky_bagus_witjaksana.adapter.AdapterBerita;
-import pnj.uts.aldycky_bagus_witjaksana.model.BeritaModel;
+import pnj.uts.aldyckybaguswitjaksana.DetailBeritaActivity;
+import pnj.uts.aldyckybaguswitjaksana.R;
+import pnj.uts.aldyckybaguswitjaksana.adapter.AdapterBerita;
+import pnj.uts.aldyckybaguswitjaksana.model.BeritaModel;
 
 /**
  * A simple {@link Fragment} subclass.

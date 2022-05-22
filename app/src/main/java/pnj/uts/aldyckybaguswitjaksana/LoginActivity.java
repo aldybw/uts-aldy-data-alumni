@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana;
+package pnj.uts.aldyckybaguswitjaksana;
 
 import android.content.Intent;
 import android.content.SharedPreferences;

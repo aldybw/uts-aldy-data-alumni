@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana.adapter;
+package pnj.uts.aldyckybaguswitjaksana.adapter;
 
 import android.content.Context;
 import android.text.Html;
@@ -15,8 +15,8 @@ import androidx.annotation.Nullable;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
-import pnj.uts.aldycky_bagus_witjaksana.R;
-import pnj.uts.aldycky_bagus_witjaksana.model.BeritaModel;
+import pnj.uts.aldyckybaguswitjaksana.R;
+import pnj.uts.aldyckybaguswitjaksana.model.BeritaModel;
 
 public class AdapterBerita extends ArrayAdapter<BeritaModel> {
     Context context;

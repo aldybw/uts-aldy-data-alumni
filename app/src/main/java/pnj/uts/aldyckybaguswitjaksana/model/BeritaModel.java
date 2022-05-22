@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana.model;
+package pnj.uts.aldyckybaguswitjaksana.model;
 
 public class BeritaModel {
     String image;

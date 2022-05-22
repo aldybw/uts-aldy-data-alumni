@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana;
+package pnj.uts.aldyckybaguswitjaksana;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,9 +18,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-import pnj.uts.aldycky_bagus_witjaksana.adapter.AdapterAlumni;
-import pnj.uts.aldycky_bagus_witjaksana.database.DatabaseHelper;
-import pnj.uts.aldycky_bagus_witjaksana.model.AlumniModel;
+import pnj.uts.aldyckybaguswitjaksana.adapter.AdapterAlumni;
+import pnj.uts.aldyckybaguswitjaksana.database.DatabaseHelper;
+import pnj.uts.aldyckybaguswitjaksana.model.AlumniModel;
 
 public class DataAlumniActivity extends AppCompatActivity {
 

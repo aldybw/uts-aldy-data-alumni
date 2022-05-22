@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pnj.uts.aldycky_bagus_witjaksana">
+    package="pnj.uts.aldyckybaguswitjaksana">
 
     <application
         android:allowBackup="true"
@@ -11,25 +11,25 @@
         android:requestLegacyExternalStorage="true"
         android:theme="@style/Theme.UTSAldyDataAlumni">
         <activity
-            android:name="pnj.uts.aldycky_bagus_witjaksana.DetailBeritaActivity"
+            android:name="pnj.uts.aldyckybaguswitjaksana.DetailBeritaActivity"
             android:exported="false" />
         <activity
-            android:name="pnj.uts.aldycky_bagus_witjaksana.DetailAlumniActivity"
+            android:name="pnj.uts.aldyckybaguswitjaksana.DetailAlumniActivity"
             android:exported="false" />
         <activity
-            android:name="pnj.uts.aldycky_bagus_witjaksana.DataAlumniActivity"
+            android:name="pnj.uts.aldyckybaguswitjaksana.DataAlumniActivity"
             android:exported="false" />
         <activity
-            android:name="pnj.uts.aldycky_bagus_witjaksana.TambahAlumniActivity"
+            android:name="pnj.uts.aldyckybaguswitjaksana.TambahAlumniActivity"
             android:exported="false" />
         <activity
-            android:name="pnj.uts.aldycky_bagus_witjaksana.HomeActivity"
+            android:name="pnj.uts.aldyckybaguswitjaksana.HomeActivity"
             android:exported="false" />
         <activity
-            android:name="pnj.uts.aldycky_bagus_witjaksana.LoginActivity"
+            android:name="pnj.uts.aldyckybaguswitjaksana.LoginActivity"
             android:exported="false" />
         <activity
-            android:name="pnj.uts.aldycky_bagus_witjaksana.SplashScreen"
+            android:name="pnj.uts.aldyckybaguswitjaksana.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

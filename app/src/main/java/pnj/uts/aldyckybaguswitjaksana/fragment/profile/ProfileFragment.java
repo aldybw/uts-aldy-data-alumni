@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana.fragment.profile;
+package pnj.uts.aldyckybaguswitjaksana.fragment.profile;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,8 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import pnj.uts.aldycky_bagus_witjaksana.LoginActivity;
-import pnj.uts.aldycky_bagus_witjaksana.R;
+import pnj.uts.aldyckybaguswitjaksana.LoginActivity;
+import pnj.uts.aldyckybaguswitjaksana.R;
 
 /**
  * A simple {@link Fragment} subclass.

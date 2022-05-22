@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana;
+package pnj.uts.aldyckybaguswitjaksana;
 
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import pnj.uts.aldycky_bagus_witjaksana.database.DatabaseHelper;
+import pnj.uts.aldyckybaguswitjaksana.database.DatabaseHelper;
 
 public class DetailAlumniActivity extends AppCompatActivity implements View.OnClickListener {
 

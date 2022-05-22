@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana;
+package pnj.uts.aldyckybaguswitjaksana;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -15,9 +15,9 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
-import pnj.uts.aldycky_bagus_witjaksana.fragment.berita.BeritaFragment;
-import pnj.uts.aldycky_bagus_witjaksana.fragment.home.HomeFragment;
-import pnj.uts.aldycky_bagus_witjaksana.fragment.profile.ProfileFragment;
+import pnj.uts.aldyckybaguswitjaksana.fragment.berita.BeritaFragment;
+import pnj.uts.aldyckybaguswitjaksana.fragment.home.HomeFragment;
+import pnj.uts.aldyckybaguswitjaksana.fragment.profile.ProfileFragment;
 
 public class HomeActivity extends AppCompatActivity {
 

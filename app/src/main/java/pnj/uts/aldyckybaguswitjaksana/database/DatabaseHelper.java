@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana.database;
+package pnj.uts.aldyckybaguswitjaksana.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

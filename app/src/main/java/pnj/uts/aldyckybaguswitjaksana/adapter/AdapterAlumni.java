@@ -1,4 +1,4 @@
-package pnj.uts.aldycky_bagus_witjaksana.adapter;
+package pnj.uts.aldyckybaguswitjaksana.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import pnj.uts.aldycky_bagus_witjaksana.R;
-import pnj.uts.aldycky_bagus_witjaksana.model.AlumniModel;
+import pnj.uts.aldyckybaguswitjaksana.R;
+import pnj.uts.aldyckybaguswitjaksana.model.AlumniModel;
 
 public class AdapterAlumni extends ArrayAdapter<AlumniModel> {
 
