@@ -44,8 +44,6 @@ public class DetailAlumniActivity extends AppCompatActivity implements View.OnCl
         actionHapus = findViewById(R.id.actionHapus);
 
         edtTanggalLahir.setOnClickListener(this);
-        edtTahunMasuk.setOnClickListener(this);
-        edtTahunLulus.setOnClickListener(this);
         actionUbah.setOnClickListener(this);
         actionHapus.setOnClickListener(this);
 
@@ -90,22 +88,14 @@ public class DetailAlumniActivity extends AppCompatActivity implements View.OnCl
                 }
                 break;
             case R.id.edtTanggalLahir:
-                new DatePickerDialog(this, onDateSetListener1, calendar.get(Calendar.YEAR),
+                new DatePickerDialog(this, onDateSetListener, calendar.get(Calendar.YEAR),
                         calendar.get(Calendar.MONTH),
-                        calendar.get(Calendar.DAY_OF_MONTH)).show();
-                break;
-            case R.id.edtTahunMasuk:
-                new DatePickerDialog(this, onDateSetListener2, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
-                        calendar.get(Calendar.DAY_OF_MONTH)).show();
-                break;
-            case R.id.edtTahunLulus:
-                new DatePickerDialog(this, onDateSetListener3, calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
                         calendar.get(Calendar.DAY_OF_MONTH)).show();
                 break;
         }
     }
 
-    DatePickerDialog.OnDateSetListener onDateSetListener1 = new DatePickerDialog.OnDateSetListener() {
+    DatePickerDialog.OnDateSetListener onDateSetListener = new DatePickerDialog.OnDateSetListener() {
         @Override
         public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
             Calendar calendar = Calendar.getInstance();
@@ -115,28 +105,6 @@ public class DetailAlumniActivity extends AppCompatActivity implements View.OnCl
 
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd MMM yyyy");
             edtTanggalLahir.setText(simpleDateFormat.format(calendar.getTime()));
-        }
-    };
-
-    DatePickerDialog.OnDateSetListener onDateSetListener2 = new DatePickerDialog.OnDateSetListener() {
-        @Override
-        public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
-            Calendar calendar = Calendar.getInstance();
-            calendar.set(Calendar.YEAR, i);
-
-            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy");
-            edtTahunMasuk.setText(simpleDateFormat.format(calendar.getTime()));
-        }
-    };
-
-    DatePickerDialog.OnDateSetListener onDateSetListener3 = new DatePickerDialog.OnDateSetListener() {
-        @Override
-        public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
-            Calendar calendar = Calendar.getInstance();
-            calendar.set(Calendar.YEAR, i);
-
-            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy");
-            edtTahunLulus.setText(simpleDateFormat.format(calendar.getTime()));
         }
     };
 

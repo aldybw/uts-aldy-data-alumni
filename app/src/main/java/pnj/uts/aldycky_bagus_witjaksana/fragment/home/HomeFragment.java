@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment {
         txtAbout2 = view.findViewById(R.id.txtAbout2);
 
         txtTitle.setText("Tentang Aplikasi");
-        txtAbout1.setText("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-        txtAbout2.setText("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+        txtAbout1.setText("Aplikasi ini bernama Almabase. Semua nama-nama alumni kampus akan disimpan di sini. Anda juga bisa menambahkan data alumni terbaru dan mengedit nama alumni yang sudah ada serta menghapusnya.");
+        txtAbout2.setText("Di dalam aplikasi ini juga, terdapat kumpulan berita yang bisa anda baca. Anda bisa login dan logout di dalam aplikasi ini sesuai dengan email dan password yang tertera di source code aplikasi ini. Ada juga halaman profile yang menyimpan data identitas anda sebagai user.");
     }
 }
