@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textAlignment="center"
-        android:textSize="14sp"
+        android:textSize="16sp"
         android:fontFamily="@font/poppins_light"
         android:textColor="@color/primaryDark"
         android:text="Example Title News"
@@ -25,7 +25,7 @@
         android:textAlignment="center"
         android:fontFamily="@font/poppins_light"
         android:textColor="@color/neutralGrey"
-        android:textSize="12sp"
+        android:textSize="14sp"
         android:text="Example long content news"/>
 
 
