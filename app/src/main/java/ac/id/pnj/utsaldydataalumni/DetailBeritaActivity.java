@@ -1,8 +1,7 @@
 package ac.id.pnj.utsaldydataalumni;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -11,7 +10,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.squareup.picasso.Picasso;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
 public class DetailBeritaActivity extends AppCompatActivity {
 
@@ -28,7 +31,7 @@ public class DetailBeritaActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            Picasso.get().load(extras.getString("image", "")).into(imgBerita);
+            Glide.with(this).load(extras.getString("image", "")).placeholder(R.drawable.progress_bar).diskCacheStrategy(DiskCacheStrategy.NONE).into(imgBerita);
             txtIsi.setText(extras.getString("isi", ""));
             txtJudul.setText(extras.getString("judul", ""));
         }
@@ -45,15 +48,26 @@ public class DetailBeritaActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        switch(item.getItemId()) {
+        switch (item.getItemId()) {
             case R.id.actionMenu1:
-                Toast.makeText(this, "Menu Tambah Data dipilih", Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(DetailBeritaActivity.this, TambahAlumniActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.actionMenu2:
-                Toast.makeText(this, "Menu Data Penduduk dipilih", Toast.LENGTH_SHORT).show();
+                Intent intent2 = new Intent(DetailBeritaActivity.this, DataAlumniActivity.class);
+                startActivity(intent2);
                 break;
             case R.id.actionMenu3:
-                Toast.makeText(this, "Menu Logout dipilih", Toast.LENGTH_SHORT).show();
+                SharedPreferences sharedPreferences = getSharedPreferences("UtsAldyDataAlumni", MODE_PRIVATE);
+                SharedPreferences.Editor edit = sharedPreferences.edit();
+                edit.clear();
+                edit.commit();
+
+                Intent intent3 = new Intent(DetailBeritaActivity.this, LoginActivity.class);
+                startActivity(intent3);
+                finish();
+
+                Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
                 break;
         }
         return super.onOptionsItemSelected(item);

@@ -1,9 +1,5 @@
 package ac.id.pnj.utsaldydataalumni;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -11,6 +7,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -68,7 +68,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
-        switch(item.getItemId()) {
+        switch (item.getItemId()) {
             case R.id.actionMenu1:
                 Intent intent1 = new Intent(HomeActivity.this, TambahAlumniActivity.class);
                 startActivity(intent1);
@@ -79,7 +79,7 @@ public class HomeActivity extends AppCompatActivity {
                 break;
             case R.id.actionMenu3:
                 SharedPreferences sharedPreferences = getSharedPreferences("UtsAldyDataAlumni", MODE_PRIVATE);
-                SharedPreferences.Editor edit= sharedPreferences.edit();
+                SharedPreferences.Editor edit = sharedPreferences.edit();
                 edit.clear();
                 edit.commit();
 

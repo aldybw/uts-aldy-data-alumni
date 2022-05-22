@@ -31,7 +31,7 @@ public class AdapterAlumni extends ArrayAdapter<AlumniModel> {
 
         AlumniModel model = getItem(position);
 
-        if (convertView==null){
+        if (convertView == null) {
             convertView = LayoutInflater.from(context).inflate(resource, parent, false);
             holder = new Holder();
             holder.txtNim = convertView.findViewById(R.id.txtNim);

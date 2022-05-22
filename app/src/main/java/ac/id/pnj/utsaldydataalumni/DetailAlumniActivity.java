@@ -1,7 +1,5 @@
 package ac.id.pnj.utsaldydataalumni;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.DatePickerDialog;
 import android.content.ContentValues;
 import android.content.Intent;
@@ -12,6 +10,8 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -158,7 +158,7 @@ public class DetailAlumniActivity extends AppCompatActivity implements View.OnCl
 
         long update = database.update("tb_alumni", contentValues, "id=?", new String[]{"" + id});
 
-        if (update !=-1) {
+        if (update != -1) {
             Toast.makeText(this, "Update Alumni Berhasil", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(DetailAlumniActivity.this, DataAlumniActivity.class);
             startActivity(intent);
